@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/card_image_width"
+    android:layout_height="@dimen/card_width"
+    android:layout_marginHorizontal="@dimen/padding_component"
+    android:layout_marginVertical="@dimen/min_app_margin"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardElevation="0dp"
+    app:cardCornerRadius="@dimen/padding_component">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        tools:src="@drawable/sport"
+        android:contentDescription="@string/add_image" />
+
+</com.google.android.material.card.MaterialCardView>

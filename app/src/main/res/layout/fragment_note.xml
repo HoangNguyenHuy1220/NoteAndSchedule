@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/min_app_margin"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.note.NoteFragment">
+
+    <RelativeLayout
+        android:id="@+id/layout_select_multi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="@dimen/min_app_margin"
+        android:gravity="center_vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/image_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_arrow_back"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/textView_selected_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/image_cancel"
+            android:layout_toStartOf="@id/image_pin_selected_note"
+            android:layout_marginHorizontal="@dimen/min_app_margin"
+            android:textSize="@dimen/text_size"
+            tools:ignore="RelativeOverlap"
+            tools:text="10 Item"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:scrollHorizontally="true"/>
+
+        <ImageView
+            android:id="@+id/image_remove_selected_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/icon_delete_outline"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/image_pin_selected_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/image_remove_selected_note"
+            android:layout_marginEnd="@dimen/app_margin"
+            android:src="@drawable/icon_pin_all"
+            tools:ignore="ContentDescription"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_normal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="@dimen/min_app_margin">
+
+        <ImageView
+            android:id="@+id/image_layout_set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_grid_layout"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/image_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/min_app_margin"
+            android:layout_toStartOf="@id/image_layout_set"
+            android:src="@drawable/icon_filter_note"
+            tools:ignore="ContentDescription" />
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/search_view"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_toStartOf="@id/image_filter"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/min_app_margin"
+            android:background="@drawable/search_view_shape"
+            app:queryHint="@string/search_your_notes" />
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_category_note"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/layout_normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/app_margin"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:orientation="horizontal" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_list_note"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:paddingVertical="@dimen/min_app_margin"
+        android:layout_marginHorizontal="@dimen/padding_component"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/recyclerView_category_note"
+        android:orientation="vertical"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:spanCount="2"
+        android:clipToPadding="false"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/button_add_note"
+        android:layout_width="@dimen/fab_size"
+        android:layout_height="@dimen/fab_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="@dimen/taskbar_height"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:src="@drawable/icon_add"
+        android:backgroundTint="@color/primary_color"
+        tools:targetApi="lollipop"
+        android:contentDescription="@string/fab_add_content"
+        app:pressedTranslationZ="@dimen/fab_translation_press"
+        android:elevation="0dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

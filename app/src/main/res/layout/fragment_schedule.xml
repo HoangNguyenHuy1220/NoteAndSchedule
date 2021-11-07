@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.schedule.ScheduleFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/schedule_header_height"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="@dimen/app_margin"
+        android:background="@drawable/schedule_header_bg">
+
+        <ImageButton
+            android:id="@+id/button_previous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/text_month"
+            app:layout_constraintBottom_toBottomOf="@id/text_month"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@null"
+            android:src="@drawable/icon_navigate_previous"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/text_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/button_previous"
+            android:layout_marginStart="@dimen/component_margin_vertical"
+            android:textSize="@dimen/dialog_title_size"
+            android:textColor="@android:color/white"
+            tools:text="@string/today" />
+
+        <ImageButton
+            android:id="@+id/button_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/text_month"
+            app:layout_constraintBottom_toBottomOf="@id/text_month"
+            app:layout_constraintStart_toEndOf="@id/text_month"
+            android:layout_marginStart="@dimen/component_margin_vertical"
+            android:background="@null"
+            android:src="@drawable/icon_navigate_next"
+            tools:ignore="ContentDescription" />
+
+        <ImageButton
+            android:id="@+id/button_add_task"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/text_month"
+            app:layout_constraintBottom_toBottomOf="@id/text_month"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@null"
+            android:src="@drawable/icon_add_box"
+            tools:ignore="ContentDescription" />
+
+        <ImageButton
+            android:id="@+id/button_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/text_month"
+            app:layout_constraintBottom_toBottomOf="@id/text_month"
+            app:layout_constraintEnd_toStartOf="@id/button_add_task"
+            android:layout_marginEnd="@dimen/app_margin"
+            android:background="@null"
+            android:src="@drawable/icon_filter_task"
+            tools:ignore="ContentDescription" />
+
+        <ImageButton
+            android:id="@+id/button_today"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/text_month"
+            app:layout_constraintBottom_toBottomOf="@id/text_month"
+            app:layout_constraintEnd_toStartOf="@id/button_filter"
+            android:layout_marginEnd="@dimen/app_margin"
+            android:background="@null"
+            android:src="@drawable/icon_calendar_today"
+            tools:ignore="ContentDescription" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_progress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/card_height"
+        android:layout_marginHorizontal="@dimen/app_margin"
+        app:cardElevation="@dimen/app_margin"
+        app:cardCornerRadius="@dimen/app_margin">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="@dimen/app_margin">
+
+            <!-- Done -->
+            <TextView
+                android:id="@+id/done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/text_done_task"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/all"
+                android:text="@string/done"
+                android:textSize="@dimen/text_size_normal" />
+
+            <TextView
+                android:id="@+id/text_done_task"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/done"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@id/done"
+                app:layout_constraintEnd_toEndOf="@id/done"
+                android:layout_marginTop="@dimen/min_app_margin"
+                tools:text="5"
+                android:textSize="@dimen/text_size_normal"
+                android:textStyle="bold"/>
+
+            <!-- All -->
+            <TextView
+                android:id="@+id/all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/text_all_task"
+                app:layout_constraintStart_toEndOf="@id/done"
+                app:layout_constraintEnd_toStartOf="@id/skip"
+                android:text="@string/total"
+                android:textSize="@dimen/dialog_title_size" />
+
+            <TextView
+                android:id="@+id/text_all_task"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/all"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@id/all"
+                app:layout_constraintEnd_toEndOf="@id/all"
+                android:layout_marginTop="@dimen/min_app_margin"
+                tools:text="10"
+                android:textSize="@dimen/text_size_normal"
+                android:textStyle="bold"/>
+
+            <!-- SKip -->
+            <TextView
+                android:id="@+id/skip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/text_skip_task"
+                app:layout_constraintStart_toEndOf="@id/all"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:text="@string/skip"
+                android:textSize="@dimen/text_size_normal" />
+
+            <TextView
+                android:id="@+id/text_skip_task"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/skip"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@id/skip"
+                app:layout_constraintEnd_toEndOf="@id/skip"
+                android:layout_marginTop="@dimen/min_app_margin"
+                tools:text="5"
+                android:textSize="@dimen/text_size_normal"
+                android:textStyle="bold"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_task_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/card_progress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingVertical="@dimen/margin_add_item"
+        android:clipToPadding="false"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

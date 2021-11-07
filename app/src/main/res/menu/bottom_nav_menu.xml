@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/noteFragment"
+        android:title="@string/note"
+        android:icon="@drawable/icon_note"/>
+
+    <item
+        android:id="@+id/scheduleFragment"
+        android:title="@string/schedule"
+        android:icon="@drawable/icon_task"/>
+
+    <item
+        android:id="@+id/calendarFragment"
+        android:title="@string/calendar"
+        android:icon="@drawable/icon_calendar"/>
+
+</menu>

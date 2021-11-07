@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/fragment_calendar_scene"
+    tools:context=".ui.calendar.CalendarFragment">
+
+    <CalendarView
+        android:id="@+id/calendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/calendar_header_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/min_app_margin"
+        tools:text="Today"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintBottom_toBottomOf="@id/button_change_data_list"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/button_change_data_list"
+        android:visibility="gone"/>
+
+    <ImageButton
+        android:id="@+id/button_change_data_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/component_margin_vertical"
+        android:layout_marginEnd="@dimen/min_app_margin"
+        android:background="@null"
+        android:src="@drawable/icon_schedule"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/calendar"
+        tools:ignore="ContentDescription" />
+
+    <!--<ImageButton
+        android:id="@+id/button_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/app_margin"
+        android:background="@null"
+        android:src="@drawable/icon_search"
+        app:layout_constraintBottom_toBottomOf="@id/button_change_data_list"
+        app:layout_constraintEnd_toStartOf="@id/button_change_data_list"
+        app:layout_constraintTop_toTopOf="@id/button_change_data_list"
+        tools:ignore="ContentDescription" />-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_component"
+        android:layout_marginHorizontal="@dimen/padding_component"
+        android:clipToPadding="false"
+        android:paddingVertical="@dimen/component_margin_vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_change_data_list"
+        android:visibility="gone"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_component"
+        android:clipToPadding="false"
+        android:paddingVertical="@dimen/component_margin_vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_change_data_list" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

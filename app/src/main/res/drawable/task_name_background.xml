@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <corners android:topRightRadius="@dimen/component_margin_vertical"
+        android:topLeftRadius="@dimen/component_margin_vertical"/>
+
+    <solid android:color="@color/calendar_color"/>
+
+    <padding
+        android:top="@dimen/padding_component"
+        android:bottom="@dimen/padding_component"/>
+
+</shape>

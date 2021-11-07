@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#589CFB</color>
+    <color name="variant_color">#A2115EDE</color>
+    <color name="teal_200">#A303CDB9</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#424242</color>
+    <color name="original_black">#000</color>
+    <color name="light_black">#143C4042</color>
+    <color name="item_dialog_black">#9B353232</color>
+    <color name="white">#F4FFFFFF</color>
+    <color name="weight_white">#188B8D8E</color>
+    <color name="notification_active">#D4F44336</color>
+    <color name="category_bg_blue">#6203A9F4</color>
+    <color name="day_of_week_bg">#AB16739D</color>
+    <color name="calendar_color">#4D6284B2</color>
+    <color name="complete_color">#4CA74F</color>
+
+</resources>

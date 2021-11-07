@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/component_margin_vertical"
+    android:background="@drawable/dialog_reminder_shape"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/textView_title"
+        style="@style/dialog_reminder_text_style"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/reminder"
+        android:textSize="@dimen/dialog_title_size"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/textView_edit_time"
+        style="@style/dialog_reminder_text_style"
+        app:layout_constraintTop_toBottomOf="@id/textView_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/title_margin_vertical"
+        android:background="@drawable/item_reminder_shape"
+        tools:text="12:00"
+        android:gravity="center_vertical"
+        app:drawableEndCompat="@drawable/icon_time" />
+
+    <TextView
+        android:id="@+id/textView_repeat"
+        style="@style/dialog_reminder_text_style"
+        app:layout_constraintTop_toBottomOf="@id/textView_edit_time"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/component_margin_vertical"
+        android:background="@drawable/item_reminder_shape"
+        android:text="@string/no_repeat"
+        android:gravity="center_vertical"
+        app:drawableEndCompat="@drawable/icon_repeat"/>
+
+    <TextView
+        android:id="@+id/textView_delete"
+        style="@style/dialog_reminder_text_style"
+        android:background="@drawable/category_text_shape"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/textView_repeat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/textView_set"
+        android:layout_marginTop="@dimen/title_margin_vertical"
+        android:text="@string/delete"
+        android:textColor="@color/primary_color"/>
+
+    <TextView
+        android:id="@+id/textView_set"
+        style="@style/dialog_reminder_text_style"
+        android:background="@drawable/category_text_shape"
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/textView_repeat"
+        app:layout_constraintStart_toEndOf="@id/textView_delete"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/title_margin_vertical"
+        android:text="@string/ok"
+        android:textColor="@color/primary_color"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

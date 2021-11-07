@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardElevation="0dp"
+    app:cardCornerRadius="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/image_holder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_drag_indicator"
+            tools:ignore="ContentDescription" />
+
+        <CheckBox
+            android:id="@+id/checkbox_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/component_margin_vertical"
+            android:layout_toEndOf="@id/image_holder"
+            android:button="@drawable/add_note_checkbox_selector" />
+
+        <TextView
+            android:id="@+id/text_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/app_margin"
+            android:layout_toStartOf="@id/image_remove_item"
+            android:layout_toEndOf="@id/checkbox_item"
+            android:background="@null"
+            android:ellipsize="end"
+            android:hint="@string/item"
+            android:importantForAutofill="no"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textSize="@dimen/text_size_normal"
+            tools:ignore="LabelFor"
+            tools:text="Note" />
+
+        <ImageView
+            android:id="@+id/image_remove_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_round_delete"
+            tools:ignore="ContentDescription" />
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

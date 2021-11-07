@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <corners android:radius="@dimen/min_app_margin"/>
+
+    <solid android:color="@color/item_dialog_black"/>
+
+    <padding
+        android:top="@dimen/min_app_margin"
+        android:bottom="@dimen/min_app_margin"
+        android:left="@dimen/min_app_margin"
+        android:right="@dimen/min_app_margin"/>
+
+</shape>

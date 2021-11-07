@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="@color/item_dialog_black"/>
+
+    <corners android:radius="@dimen/component_margin_vertical"/>
+
+    <padding
+        android:top="@dimen/padding_component"
+        android:bottom="@dimen/padding_component"
+        android:left="@dimen/component_margin_vertical"
+        android:right="@dimen/component_margin_vertical"/>
+
+</shape>

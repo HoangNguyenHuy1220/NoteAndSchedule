@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable-v24/icon_add_text.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable-v24/icon_insert_photo.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable-v24/icon_reminder.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable-v24/icon_sub_note.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/add_note_checkbox_selector.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/button_save_bg.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/calendar_header_bg.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/category_spinner_bg.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/category_text_shape.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/check_list_bg.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/checkbox_selector.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/create_task_bg.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/day_of_week_bg.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/ds.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/ic_pinned.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_add_box.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_add_category.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_arrow_back.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_baseline_circle.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_calendar_today.xml" value="0.1578125" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_check.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_check_circle_outline.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_check_progress.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_check_small.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_checked.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_circle.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_circle_complete.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_circle_done.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_circle_pending.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_circle_skip.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_circle_time_to_job.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_circle_timeline.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_close.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_delete.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_drop_down.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_edit.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_edit_calendar.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_edit_category.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_filter_list.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_filter_task.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_grid_layout.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_holder.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_navigate_next.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_navigate_previous.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_new_edit.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_note.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_notifications_active.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_notifications_off.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_option.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_outline_check_box.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_outline_check_box_black.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_outline_check_box_white.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_reload.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_save.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_schedule.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_skip_outline.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_uncheck_small.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_unchecked.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/icon_unpin.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/item_reminder_shape.xml" value="0.14635416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/multi_select_background.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/normal_note_shape.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/note_checkbox_selector.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/progress_bg.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/progress_loading_image.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/reminder_shape.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/round_shape.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/schedule_header_bg.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/schedule_progress_shape.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/search_view_shape.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/selected_category_selector.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/seleted_category_shape.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/shape.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/task_description_bg.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/task_name_background.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/taskbar_shape.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/title_shape.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/drawable/view_image_shape.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/layout-v21/fragment_create_task.xml" value="0.1421875" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/layout/activity_main.xml" value="0.15729166666666666" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/layout/add_category_item_layout.xml" value="0.25" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/layout/add_item_dialog.xml" value="0.33" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/layout/add_note_item.xml" value="0.1" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/layout/add_reminder_dialog.xml" value="0.15729166666666666" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/layout/calendar_task_list_item.xml" value="0.25" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/layout/check_image_layout.xml" value="0.22" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/layout/date_time_picker.xml" value="0.15729166666666666" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/layout/dropdown_item_spinner.xml" value="0.33" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/layout/fragment_add_category.xml" value="0.25" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/layout/fragment_add_note.xml" value="0.25" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/layout/fragment_calendar.xml" value="0.1" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/layout/fragment_create_task.xml" value="0.25" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/layout/fragment_custom_repeat_task.xml" value="0.15729166666666666" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/layout/fragment_image.xml" value="0.25" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/layout/fragment_note.xml" value="0.25" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/layout/fragment_schedule.xml" value="0.25" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/layout/fragment_settings.xml" value="0.13425925925925927" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/layout/fragment_statistics.xml" value="0.15729166666666666" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/layout/image_layout.xml" value="0.15729166666666666" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/layout/item_image_layout.xml" value="0.16" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/layout/item_list_item.xml" value="0.25" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/layout/note_category_item.xml" value="0.33" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/layout/note_list_item.xml" value="0.33" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/layout/progress_dialog_layout.xml" value="0.15729166666666666" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/layout/selected_item_spinner.xml" value="0.33" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/layout/standard_bottom_sheet.xml" value="0.15729166666666666" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/layout/task_item_layout.xml" value="0.25" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/layout/test.xml" value="0.33" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/menu/category_action_menu.xml" value="0.15729166666666666" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/menu/note_option_menu.xml" value="0.15729166666666666" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/menu/task_progress_menu.xml" value="0.15729166666666666" />
+        <entry key="..\:/Programming/Android/Enthusiastic  App/NoteAndSchedule/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/drawable-v24/icon_add_text.xml" value="0.17415730337078653" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/drawable-v24/icon_delete.xml" value="0.17415730337078653" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/drawable-v24/icon_insert_photo.xml" value="0.17415730337078653" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/drawable-v24/icon_reminder.xml" value="0.17415730337078653" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/drawable-v24/icon_sub_note.xml" value="0.17415730337078653" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/drawable/category_shape.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/drawable/category_text_shape.xml" value="0.17222222222222222" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/drawable/checkbox_selector.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/drawable/dialog_reminder_shape.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/drawable/ic_pinned.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/drawable/icon_add.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/drawable/icon_category.xml" value="0.17415730337078653" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/drawable/icon_check.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/drawable/icon_checked.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/drawable/icon_close.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/drawable/icon_edit.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/drawable/icon_edit_calendar.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/drawable/icon_notifications_active.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/drawable/icon_notifications_off.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/drawable/icon_option.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/drawable/icon_repeat.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/drawable/icon_round_cancel.xml" value="0.17222222222222222" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/drawable/icon_round_delete.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/drawable/icon_time.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/drawable/icon_unchecked.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/drawable/item_bg_menu.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/drawable/item_reminder_shape.xml" value="0.17760416666666667" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/drawable/reminder_shape.xml" value="0.17222222222222222" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/drawable/taskbar_shape.xml" value="0.17415730337078653" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/layout-v21/add_item_dialog.xml" value="0.15729166666666666" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/layout-v21/fragment_note.xml" value="0.15729166666666666" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/layout/add_item_dialog.xml" value="0.25" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/layout/add_note_item.xml" value="0.15729166666666666" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/layout/add_note_sub_list_item.xml" value="0.25" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/layout/add_reminder_dialog.xml" value="0.33" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/layout/date_time_picker.xml" value="0.25" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/layout/dropdown_item.xml" value="0.25" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/layout/dropdown_item_spinner.xml" value="0.33" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/layout/fragment_add_note.xml" value="0.25" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/layout/fragment_note.xml" value="0.22" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/layout/image_layout.xml" value="0.25" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/layout/item_bg_menu.xml" value="0.13703703703703704" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/layout/item_list_item.xml" value="0.15729166666666666" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/layout/note_category_item.xml" value="0.25" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/layout/note_list_item.xml" value="0.2" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/layout/selected_item_spinner.xml" value="0.25" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/layout/sub_note_list_item.xml" value="0.25" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="..\:/Programming/Android/My Enthusiastic  App dont care people decry/NoteAndSchedule/app/src/main/res/menu/note_option_menu.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
